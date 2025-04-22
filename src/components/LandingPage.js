@@ -59,7 +59,7 @@ const Login = () => {
         {error && <p style={{ color: 'red', marginTop: '10px' }}>{error}</p>}
         <p className="signup-link">
           New user?{' '}
-          <span onClick={() => navigate('/signup')}>
+          <span onClick={() => navigate('/register')}>
             Sign up
           </span>
         </p>
